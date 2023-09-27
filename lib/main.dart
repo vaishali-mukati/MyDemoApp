@@ -6,9 +6,9 @@ void main() {
     MaterialApp(
       home: Scaffold(
        appBar: AppBar(title: const Text('My app')),
-        body: const GradientContainer(
-       Color.fromARGB(221, 114, 153, 163),
-        Color.fromARGB(221, 4, 52, 65)
+        body:  GradientContainer(
+      const Color.fromARGB(221, 114, 153, 163),
+       const Color.fromARGB(221, 4, 52, 65)
         ),
       ),
     ),
