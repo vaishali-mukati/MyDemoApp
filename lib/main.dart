@@ -7,8 +7,8 @@ void main() {
       home: Scaffold(
        appBar: AppBar(title: const Text('My app')),
         body:  GradientContainer(
-      const Color.fromARGB(221, 114, 153, 163),
-       const Color.fromARGB(221, 4, 52, 65)
+      const Color.fromARGB(255, 34, 45, 255),
+       const Color.fromARGB(221, 29, 53, 145)
         ),
       ),
     ),

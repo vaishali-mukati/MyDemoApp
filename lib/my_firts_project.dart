@@ -4,16 +4,20 @@ import 'package:first_app/Dice_Image.dart';
 
     var startAlignment = Alignment.topLeft;
     var endAlignment = Alignment.bottomRight;
+
  class GradientContainer extends StatelessWidget{
-   var activeImages = 'assets/Images/dice_3.jpg';
-  GradientContainer(this.color1,this.color2);
+
+
+
+  GradientContainer(this.color1,this.color2,{super.key});
 
       final Color color1;
       final Color color2;
 
       GradientContainer.purple({super.key})
    : color1 = Colors.deepPurple,
-     color2 = Colors.indigo;  
+     color2 = Colors.indigo;
+
    @override
   Widget build(context){
     return Container(
@@ -24,7 +28,7 @@ import 'package:first_app/Dice_Image.dart';
             end: endAlignment,
             ),
           ),
-          child:  Center(
+          child:const Center(
             child:DiceRoll(),
             ),
           );
